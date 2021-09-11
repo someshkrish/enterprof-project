@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .heading {
+        padding: 4em;
+    } 
+
+    .Board{
+        width: 24em;
+        height: 24em;
+        background-color: #12554e;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 1em;
+        justify-content: space-around;
+        padding: 0.2em;
+    
+        .Board-cell {
+            
+            width: 7.6em;
+            height: 7.6em;
+            background-color: #0da192;
+            border-radius: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .player {
+                font-size: 2em;
+                color: white;
+            }
+        }
+    }
+}
